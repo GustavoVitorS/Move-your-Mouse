@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+body, html, canvas {
+  margin: 0px; 
+  padding: 0px; 
+  position: absolute; 
+  background-color: #10031f; 
+  cursor: none; 
+}
+
+h1 {
+  position: absolute; 
+  z-index: 1000; 
+  margin-left: 25px; 
+  color: #09667e; 
+  font-family: 'Inconsolata', monospace;
+  font-size: 33px; 
+  top: 10px; 
+  pointer-events: none; 
+}
+.particles {
+  width: 135px; 
+  height: 45px; 
+  background-color: #10031d; 
+  top: 0px; 
+  right: 0px; 
+  position: fixed; 
+  line-height: 22px; 
+  font-size: 20px; 
+  padding: 10px; 
+  border-bottom-left-radius: 10px; 
+  font-family: 'Inconsolata', monospace;
+  color: #10031f; 
+  text-align: center; 
+  cursor: pointer;
+}
+
+a {
+  color: #1abc9c; 
+}
